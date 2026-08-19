@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Vault — Your vouchers, beautifully organized</title>
+  <desc id="desc">A dark product banner with purple voucher cards, the Vault name and a beta label.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#121212"/>
+      <stop offset="1" stop-color="#201A31"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7357D8"/>
+      <stop offset="1" stop-color="#493096"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000000" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="400" rx="28" fill="url(#background)"/>
+  <circle cx="1050" cy="50" r="230" fill="#6A4CC2" opacity="0.16"/>
+  <text x="74" y="83" fill="#B7A4F6" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="17" font-weight="700" letter-spacing="5">SMART WALLET</text>
+  <text x="70" y="212" fill="#FAF8F4" font-family="Georgia, Times New Roman, serif" font-size="112" font-weight="700" letter-spacing="-4">Vault</text>
+  <text x="74" y="267" fill="#D2CFCA" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="23" font-weight="500">Vouchers, coupons and gift cards — never forgotten.</text>
+  <rect x="74" y="307" width="108" height="38" rx="19" fill="#ECE8FF"/>
+  <text x="128" y="332" text-anchor="middle" fill="#4E3CAE" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15" font-weight="800" letter-spacing="2">BETA</text>
+  <g filter="url(#shadow)">
+    <g transform="translate(785 59) rotate(-8 146 102)">
+      <rect width="292" height="204" rx="26" fill="#EEE9FA"/>
+      <circle cx="48" cy="52" r="15" fill="#7559D8"/>
+      <rect x="78" y="40" width="92" height="12" rx="6" fill="#A598CC"/>
+      <rect x="34" y="92" width="150" height="20" rx="10" fill="#372A68"/>
+      <rect x="34" y="128" width="224" height="8" rx="4" fill="#BFB5D7"/>
+      <rect x="34" y="151" width="164" height="8" rx="4" fill="#D1C8E2"/>
+    </g>
+    <g transform="translate(846 151) rotate(7 146 102)">
+      <rect width="292" height="204" rx="26" fill="url(#card)"/>
+      <circle cx="48" cy="52" r="15" fill="#D9CBFF"/>
+      <rect x="78" y="40" width="92" height="12" rx="6" fill="#BFB0EE" opacity="0.82"/>
+      <text x="34" y="119" fill="#FFFFFF" font-family="Georgia, Times New Roman, serif" font-size="52" font-weight="700">−20%</text>
+      <path d="M34 151H258" stroke="#C9BAFA" stroke-width="2" stroke-dasharray="7 7" opacity="0.75"/>
+      <rect x="34" y="170" width="110" height="12" rx="6" fill="#D9CDFF" opacity="0.8"/>
+    </g>
+  </g>
+</svg>
